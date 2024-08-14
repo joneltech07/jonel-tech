@@ -1,3 +1,14 @@
-.img-carousel {
-    border-radius: 2%;
+
+#resume .card-img-top {
+    aspect-ratio: 1;
+    object-fit: scale-down;
+}
+
+#resume .carousel-item .img-carousel {
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+
+#resume .carousel.slide {
+    background-color: black;
 }
