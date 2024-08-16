@@ -12,3 +12,13 @@
 #resume .carousel.slide {
     background-color: black;
 }
+
+#resume .cics-logo {
+    width: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+    #resume .cics-logo {
+        width: 50%;
+    }
+}
